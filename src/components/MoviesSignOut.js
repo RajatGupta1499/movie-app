@@ -1,7 +1,9 @@
 import React from "react";
 
 class MoviesSignOut extends React.Component {
-  super()
+  constructor(props) {
+    super(props);
+  }
 
   signOut = (props) => {
     const request = new Request("/api/me", {
