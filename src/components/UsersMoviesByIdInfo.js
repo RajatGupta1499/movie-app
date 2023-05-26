@@ -1,7 +1,6 @@
 import React from "react";
 import MoviesPoster from "./MoviesPoster";
 import MoviesInfo from "./MoviesInfo";
-import Rate from "./Rate";
 import MoviesReviewUsers from "./MoviesReviewUsers";
 
 class UsersMoviesByIdInfo extends React.Component {
