@@ -21,7 +21,7 @@ const getMovies = (req, res) => {
     });
 };
 
-router.get("/", getMovies);
+router.get("/*", getMovies);
 
 searchMovies = {};
 const getMoviesBySearch = (req, res) => {
